@@ -104,3 +104,28 @@ border-radius:10px;
 
 width:650px;
 }
+.cards{
+
+display:flex;
+
+gap:20px;
+
+padding:50px;
+
+justify-content:center;
+
+flex-wrap:wrap;
+}
+
+.card{
+
+width:250px;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 0 15px rgba(0,0,0,.1);
+
+background:white;
+}
