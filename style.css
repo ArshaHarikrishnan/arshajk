@@ -1,0 +1,106 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+background:#ffffff;
+}
+
+header{
+
+background:#021633;
+
+padding:20px 80px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+}
+
+.logo{
+
+color:white;
+
+font-size:30px;
+
+font-weight:bold;
+}
+
+nav a{
+
+color:white;
+
+text-decoration:none;
+
+margin-left:25px;
+}
+
+.hero{
+
+background:#021633;
+
+color:white;
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+padding:80px;
+}
+
+.hero-left{
+
+width:50%;
+}
+
+.hero-left h1{
+
+font-size:70px;
+}
+
+.hero-left h2{
+
+color:#3fa9ff;
+
+font-size:40px;
+
+margin-top:10px;
+}
+
+.hero-left p{
+
+margin-top:25px;
+
+font-size:22px;
+
+line-height:1.6;
+}
+
+.hero button{
+
+margin-top:30px;
+
+padding:15px 30px;
+
+border:none;
+
+background:#0066ff;
+
+color:white;
+
+font-size:18px;
+
+border-radius:10px;
+}
+
+.hero-right img{
+
+width:650px;
+}
