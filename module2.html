@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 2 - Transport & Network Layer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.module-header{
+    background:#021633;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.module-header h1{
+    font-size:48px;
+}
+
+.module-header h2{
+    color:#3fa9ff;
+}
+
+.topic-container{
+    max-width:1200px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.topic-section{
+    margin-bottom:50px;
+}
+
+.topic-section h2{
+    color:#021633;
+    border-left:5px solid #0066ff;
+    padding-left:15px;
+    margin-bottom:20px;
+}
+
+.topic-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+
+.topic-card{
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.topic-card:hover{
+    transform:translateY(-5px);
+}
+
+.topic-card a{
+    text-decoration:none;
+    color:#021633;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.topic-card p{
+    margin-top:10px;
+    color:#666;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="module-header">
+
+<h1>Module 2</h1>
+
+<h2>Transport Layer & Network Layer</h2>
+
+<p>
+Protocols, Socket Programming, Routing,
+IPv6, QoS and Linux Routing Configuration
+</p>
+
+</section>
+
+<div class="topic-container">
+
+<!-- TRANSPORT LAYER -->
+
+<div class="topic-section">
+
+<h2>Transport Layer Fundamentals</h2>
+
+<div class="topic-grid">
+
+<div class="topic-card">
+<a href="notes/transport-services.html">
+Transport Layer Services
+</a>
+<p>Services provided by the transport layer.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/transport-protocols.html">
+Transport Protocols
+</a>
+<p>Overview of transport protocols.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/udp.html">
+UDP
+</a>
+<p>User Datagram Protocol.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/tcp.html">
+TCP
+</a>
+<p>Transmission Control Protocol.</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- SOCKET PROGRAMMING -->
+
+<div class="topic-section">
+
+<h2>Hands-on: Socket Programming</h2>
+
+<div class="topic-grid">
+
+<div class="topic-card">
+<a href="notes/sockets-introduction.html">
+Sockets Introduction
+</a>
+<p>Introduction to socket programming.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/tcp-sockets.html">
+Elementary TCP Sockets
+</a>
+<p>Basic TCP socket communication.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/tcp-client-server.html">
+TCP Client/Server Example
+</a>
+<p>Client-server implementation.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/select-poll.html">
+select() and poll()
+</a>
+<p>I/O Multiplexing techniques.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/udp-sockets.html">
+Elementary UDP Sockets
+</a>
+<p>UDP socket programming.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/advanced-io.html">
+Advanced I/O Functions
+</a>
+<p>Advanced network I/O operations.</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- NETWORK LAYER -->
+
+<div class="topic-section">
+
+<h2>Network Layer Fundamentals</h2>
+
+<div class="topic-grid">
+
+<div class="topic-card">
+<a href="notes/network-layer-introduction.html">
+Network Layer Introduction
+</a>
+<p>Functions and responsibilities.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/network-layer-protocols.html">
+Network Layer Protocols
+</a>
+<p>Protocols used in the network layer.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/unicast-routing.html">
+Unicast Routing
+</a>
+<p>Routing to a single destination.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/multicast-routing.html">
+Multicast Routing
+</a>
+<p>Multicast communication and routing.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/inter-intra-domain-routing.html">
+Intra & Inter-Domain Routing
+</a>
+<p>Routing within and between domains.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/ipv6.html">
+Next Generation IP (IPv6)
+</a>
+<p>IPv6 architecture and features.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/qos.html">
+Quality of Service
+</a>
+<p>QoS concepts and mechanisms.</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- LINUX ROUTING -->
+
+<div class="topic-section">
+
+<h2>Hands-on: Linux Routing</h2>
+
+<div class="topic-grid">
+
+<div class="topic-card">
+<a href="notes/routing-table-linux.html">
+Routing Tables & Caches
+</a>
+<p>Linux routing architecture.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/routing-cache.html">
+Routing Cache Overview
+</a>
+<p>Routing cache implementation.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/ip-command-routing.html">
+Adding Routes using ip Command
+</a>
+<p>Practical routing configuration.</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
