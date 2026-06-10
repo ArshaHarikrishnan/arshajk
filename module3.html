@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Module 3 - Data Link Layer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.module-header{
+    background:#021633;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.module-header h1{
+    font-size:48px;
+}
+
+.module-header h2{
+    color:#3fa9ff;
+}
+
+.topic-container{
+    max-width:1200px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.topic-section{
+    margin-bottom:50px;
+}
+
+.topic-section h2{
+    color:#021633;
+    border-left:5px solid #0066ff;
+    padding-left:15px;
+    margin-bottom:20px;
+}
+
+.topic-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+
+.topic-card{
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.topic-card:hover{
+    transform:translateY(-5px);
+}
+
+.topic-card a{
+    text-decoration:none;
+    color:#021633;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.topic-card p{
+    margin-top:10px;
+    color:#666;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="module-header">
+
+<h1>Module 3</h1>
+
+<h2>Data Link Layer & Wireless Networks</h2>
+
+<p>
+Data Link Control, MAC Protocols, Ethernet,
+Wireless LANs, Mobile IP and Low-Level Packet Interfaces
+</p>
+
+</section>
+
+<div class="topic-container">
+
+<!-- DATA LINK LAYER -->
+
+<div class="topic-section">
+
+<h2>Data Link Layer Fundamentals</h2>
+
+<div class="topic-grid">
+
+<div class="topic-card">
+<a href="notes/data-link-control.html">
+Data Link Control (DLC)
+</a>
+<p>Functions and services of the data-link layer.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/mac-protocols.html">
+Multiple Access Protocols (MAC)
+</a>
+<p>Channel access mechanisms and MAC protocols.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/link-layer-addressing.html">
+Link-Layer Addressing
+</a>
+<p>MAC addressing and frame delivery.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/ethernet.html">
+Ethernet Protocol
+</a>
+<p>Ethernet architecture and frame format.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/connecting-devices.html">
+Connecting Devices
+</a>
+<p>Repeaters, hubs, bridges, switches and routers.</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- WIRELESS NETWORKS -->
+
+<div class="topic-section">
+
+<h2>Wireless Networking</h2>
+
+<div class="topic-grid">
+
+<div class="topic-card">
+<a href="notes/wireless-lans.html">
+Wireless LANs
+</a>
+<p>IEEE 802.11 architecture and Wi-Fi standards.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/mobile-ip.html">
+Mobile IP
+</a>
+<p>Mobility management in IP networks.</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- HANDS-ON -->
+
+<div class="topic-section">
+
+<h2>Hands-on Programming Interfaces</h2>
+
+<div class="topic-grid">
+
+<div class="topic-card">
+<a href="notes/datalink-provider-interface.html">
+Datalink Provider Interface (DLPI)
+</a>
+<p>Programming interface for data-link services.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/sock-packet.html">
+SOCK_PACKET
+</a>
+<p>Low-level packet access using SOCK_PACKET.</p>
+</div>
+
+<div class="topic-card">
+<a href="notes/pf-packet.html">
+PF_PACKET
+</a>
+<p>Linux packet socket programming using PF_PACKET.</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
